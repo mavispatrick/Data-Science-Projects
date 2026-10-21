@@ -1,26 +1,41 @@
-﻿# 👋 Hello World
+# 🧬 Data Science Projects
 
-Welcome to my first repository! This is where my GitHub journey officially began.
+End-to-end data science and machine learning projects built in Python.
 
-## About
-A classic first repository - my starting point on GitHub. Contributions are welcome!
+## Projects
 
-## Getting Started
-Clone the repo and run the script:
+| Project | Description | Stack |
+| --- | --- | --- |
+| `eda-template` | Reusable exploratory data analysis workflow | Pandas, Matplotlib, Seaborn |
+| `ml-basics` | Classic ML models - regression & classification | scikit-learn, NumPy |
+| `time-series` | Forecasting and trend analysis | statsmodels, Pandas |
+| `feature-engineering` | Encoding, scaling and feature selection | scikit-learn, Feature-engine |
+
+## 🧰 Stack
+
+- **Core:** Python, Jupyter Notebook, NumPy, Pandas
+- **Visualization:** Matplotlib, Seaborn, Plotly
+- **Machine Learning:** scikit-learn, XGBoost
+- **Deep Learning:** TensorFlow, Keras, PyTorch
+- **Databases:** PostgreSQL, SQLite
+- **Environment:** Conda, Docker, Google Colab
+
+## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/mavispatrick/Hello-World.git
-cd Hello-World
-python hello.py
+git clone https://github.com/mavispatrick/Data-Science-Projects.git
+cd Data-Science-Projects
+pip install -r requirements.txt
 ```
 
-## 📚 What I am learning
-- Python fundamentals and clean code practices
-- Git and GitHub workflows
-- Writing documentation that people actually read
+## 📊 Workflow
 
-## 🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+1. **Understand** the problem and explore the data
+2. **Clean** and prepare the dataset
+3. **Visualize** to find patterns and outliers
+4. **Model** - build, train and validate
+5. **Evaluate** against the right metrics
+6. **Communicate** findings clearly
 
 ## 📄 License
 MIT
